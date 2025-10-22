@@ -10,6 +10,10 @@ console.log(typeof length );
 let firstChar = text[0];
 console.log(firstChar);
 
+let SliceText = text.slice(4,9);
+console.log(SliceText);
+
+
 
 
 
