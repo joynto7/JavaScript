@@ -14,3 +14,15 @@ const flower ={
 }
 console.log(car);
 console.log(flower);
+
+const person ={
+    name : 'Maria',
+    age :22,
+    city : 'Mirpur',
+    profession : 'Engineer'
+};
+// Acessing object properties
+console.log(person)
+console.log("Person Name:"+person.name);
+console.log("City Name:"+person.city);
+console.log("Age :"+person.age);
