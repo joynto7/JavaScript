@@ -26,3 +26,7 @@ console.log(person)
 console.log("Person Name:"+person.name);
 console.log("City Name:"+person.city);
 console.log("Age :"+person.age);
+
+// Add new property to object
+person.country ='Bangladeshi';
+console.log("Updated Person Object:",+ person)
