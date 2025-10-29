@@ -1,3 +1,4 @@
+//An objcect is a vaiable that can hold multiple variables
 const car ={
     type : 'fait',
     model : '11xCarbonMagnate',
