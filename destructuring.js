@@ -31,4 +31,10 @@ console.log(f2);
 console.log(f3);
 console.log(f4);
 
+// using rest operator in destructuring
 
+const number =[1,2,3,3,4,5,6,7,78];
+const [num1,num2 ,...restNumbers]=number;
+console.log(restNumbers);
+console.log(num1);
+console.log(num2);
