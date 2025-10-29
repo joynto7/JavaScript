@@ -24,4 +24,11 @@ console.log(color1);
 console.log(color2);
 console.log(color3);
 
+const fruites =["mango","banana","orange","pineapple"];
+const [f1,f2,f3,f4]= fruites;
+console.log(f1);
+console.log(f2);
+console.log(f3);
+console.log(f4);
+
 
