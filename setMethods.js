@@ -9,4 +9,16 @@ cities.add("Bandarban");
 cities.add("Jessore");
 console.log(cities)
 
+// Create a Set
+const letters = new Set(["a","b","c"]);
+
+// Create an Iterator
+const myIterator = letters.keys();
+
+// List all Elements
+let text = "";
+for (const x of myIterator) {
+  text += x;
+}
+
 
