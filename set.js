@@ -12,3 +12,13 @@ numbers.delete(5);
 
 // creating a new set 
  const alphabets = new Set();
+// creating new vaiables 
+const a = "a"
+const b = "b"
+const c = "c"
+const d = "d"
+const e = "e"
+// add varaibles to the set
+alphabets.add(a,b,c,d,e);
+ 
+
