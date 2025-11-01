@@ -21,4 +21,6 @@ const e = "e"
 // add varaibles to the set
 alphabets.add(a,b,c,d,e);
  
+// print the the new set
+console.log(alphabets)
 
