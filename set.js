@@ -9,3 +9,6 @@ numbers.add(67);
 
 // Delete values from the set
 numbers.delete(5);
+
+// creating a new set 
+ const alphabets = new Set();
