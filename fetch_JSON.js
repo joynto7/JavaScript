@@ -13,14 +13,9 @@ fetch('https://jsonplaceholder.typicode.com/users/1')
   .catch(error => {
     console.error('There was a problem with the fetch operation:', error);
   });
- // creating new one 
+ 
 
- const API_URL = 'https://jsonplaceholder.typicode.com/todos/1';
 
- // Creating a function 
- function fetchJSONDatawithPromises(){
-
-    // call fetch() which returns a Promise 
 // Replace this with the actual API endpoint you want to call
 const API_URL = 'https://jsonplaceholder.typicode.com/todos/1';
 
