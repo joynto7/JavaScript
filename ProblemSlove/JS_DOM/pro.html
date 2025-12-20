@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div id="light" style="width:50px; height:50px; background:yellow; margin-bottom:10px;"></div>
+    <button id="toggleBtn">Turn Off</button>
+    <p>Switched off <span id="totalOff">0</span> times.</p>
+
+    <script>
+        let offCount = 0; // The counter variable
+        const btn = document.getElementById("toggleBtn");
+        const lightBox = document.getElementById("light");
+        const display = document.getElementById("totalOff");
+
+        btn.addEventListener("click", function() {
+            // Hides the element from the page
+            lightBox.style.display = "none";
+            
+            // Logic to increment and update the span
+            offCount++;
+            display.innerText = offCount;
+        });
+    </script>
+</body>
+</html>
