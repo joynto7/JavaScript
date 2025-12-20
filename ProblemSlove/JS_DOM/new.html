@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p id="text">Make me bigger!</p>
+    <button id="growBtn">Increase Size</button>
+
+    <script>
+        const myButton = document.getElementById("growBtn");
+        const myText = document.getElementById("text");
+
+        myButton.addEventListener("click", function() {
+            // Modifying style properties
+            myText.style.fontSize = "30px";
+            myText.style.color = "blue";
+        });
+    </script>
+</body>
+</html>
